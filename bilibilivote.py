@@ -102,7 +102,8 @@ if __name__ == '__main__':
                 logger.info("case id 为"+case_id+"\n")
                 i=i+1
                 vote(cookie,case_id)
-                time.sleep(15)
+                stop_time = random.randint(30,60)
+                time.sleep(stop_time)
             toubi(cookie)
             zh_sx = zh_sx+1
             logger.info("--------------------\n")
