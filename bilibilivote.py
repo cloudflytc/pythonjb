@@ -95,6 +95,9 @@ if __name__ == '__main__':
                 if(case_id == 25014):
                     logger.info("风纪委员任务执行完毕\n")
                     break
+                elif(case_id==25005):
+                    logger.info("请先成为风纪委员\n")
+                    break
                 logger.info("正在执行第"+str(i)+"个任务\n")
                 logger.info("case id 为"+case_id+"\n")
                 i=i+1
