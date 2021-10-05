@@ -102,7 +102,7 @@ if __name__ == '__main__':
                     logger.info("已完成20任务，本日任务结束\n")
                     break
                 logger.info("正在执行第"+str(i)+"个任务\n")
-                logger.info("case id 为"+case_id+"\n")
+                logger.info("case id 为"+str(case_id)+"\n")
                 i=i+1
                 vote(cookie,case_id)
                 stop_time = random.randint(30,60)
