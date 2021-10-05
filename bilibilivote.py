@@ -98,6 +98,9 @@ if __name__ == '__main__':
                 elif(case_id==25005):
                     logger.info("请先成为风纪委员\n")
                     break
+                elif(case_id==25008):
+                    logger.info("真给力 , 移交众裁的举报案件已经被处理完了，疑似黑号\n")
+                    break
                 if(i>20):
                     logger.info("已完成20任务，本日任务结束\n")
                     break
